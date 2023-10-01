@@ -1,20 +1,35 @@
 {
     "name":"Urban Designer Store",
-    "short_name":"Urban_Store",
+    "short_name":"Urban Store",
+    "star_url":"index1.html?utmsource=homescreen",
     "scope":"./",
-    "icon":[
-        {
-            "scr":"logo.png",
-            "sizes":"223x131",
-            "type":"images/png"
-        },
-        {
-            "scr":"logo.png",
-            "sizes":"223x131",
-            "type":"images/png"
-        }
-    ],
-    "theme_color":"#ffd31d",
-    "background_color":"#333",
-    "display":"standlone"
+    "icons": [
+       {
+    "scr":"icons/manifest-icon-192.maskable.png",
+    "sizes":"192x192",
+    "type":"image/png",
+    "purpose":"any"
+   },
+   {
+    "scr":"icons/manifest-icon-192.maskable.png",
+    "sizes":"192x192",
+    "type":"image/png",
+    "purpose":"maskable"
+   },
+   {
+    "scr":"icons/manifest-icon-152.maskable.png",
+    "sizes":"512x152",
+    "type":"image/png",
+    "purpose":"any"
+   },
+   {
+    "scr":"icons/manifest-icon-152.maskable.png",
+    "sizes":"512x152",
+    "type":"image/png",
+    "purpose":"maskable"
+   }
+],
+"theme_color":"#ffee00",
+"background_color":"#ffee00",
+"display":"standalone"
 }
