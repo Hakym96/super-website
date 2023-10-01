@@ -1,0 +1,20 @@
+{
+    "name":"Urban Designer Store",
+    "short_name":"Urban_Store",
+    "scope":"./",
+    "icon":[
+        {
+            "scr":"logo.png",
+            "sizes":"223x131",
+            "type":"images/png"
+        },
+        {
+            "scr":"logo.png",
+            "sizes":"223x131",
+            "type":"images/png"
+        }
+    ],
+    "theme_color":"#ffd31d",
+    "background_color":"#333",
+    "display":"standlone"
+}
